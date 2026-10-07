@@ -39,6 +39,13 @@ header {
 
 header h1 {
     text-align: center;
+    margin-bottom: 8px;
+}
+
+header .trip-meta {
+    text-align: center;
+    color: #607e77;
+    font-size: 0.95rem;
     margin-bottom: 20px;
 }
 
@@ -311,6 +318,31 @@ footer a{
     width:24px;
     height:24px;
     animation: nudge-down 2.8s ease-in-out infinite;
+}
+
+#map{
+    height: 340px;
+    border: 6px solid white;
+    border-radius: 12px;
+}
+
+#tip-button{
+    padding: 8px 16px;
+    border: none;
+    border-radius: 8px;
+    background-color: #e8f1eb;
+    color: #315b55;
+    font-family: "Fira Sans", Arial, sans-serif;
+    font-size: 1rem;
+}
+
+#tip-button:hover{
+    background-color: #d6e8dc;
+}
+
+#travel-tip{
+    margin-top:12px;
+    color:#3f6e68;
 }
 
 @keyframes nudge-down {
