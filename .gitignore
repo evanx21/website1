@@ -1,6 +1,24 @@
-# Keep only the HTML and CSS source files (plus this rule file) on GitHub.
+# Keep the webpage source and only the photos currently used by index.html.
 *
 !*/
 !*.html
 !*.css
 !.gitignore
+!photos-and-video/day-1/01-airport-plane.jpg
+!photos-and-video/day-1/02-airport-view.jpg
+!photos-and-video/day-1/04-musubi-and-snacks.jpg
+!photos-and-video/day-1/06-waikiki-beach.jpg
+!photos-and-video/day-2/05-dole-souvenirs.jpg
+!photos-and-video/day-2/06-fresh-pineapple-bowl.jpg
+!photos-and-video/day-2/08-teppanyaki-flame.jpg
+!photos-and-video/day-3/01-musubi-cafe-tray.jpg
+!photos-and-video/day-3/03-uss-missouri-guns.jpg
+!photos-and-video/day-3/04-nimitz-statue.jpg
+!photos-and-video/day-3/05-walk-to-uss-missouri.jpg
+!photos-and-video/day-3/06-marugame-udon-and-tempura.jpg
+!photos-and-video/day-4/01-kualoa-mountains.jpg
+!photos-and-video/day-4/02-view-from-boat.jpg
+!photos-and-video/day-4/03-secret-island-beach.jpg
+!photos-and-video/day-4/05-included-lunch.jpg
+!photos-and-video/day-5/01-rainbow-on-drive.jpg
+!photos-and-video/day-5/03-turtle-beach-portrait.jpg
