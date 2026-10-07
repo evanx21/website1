@@ -3,6 +3,7 @@
 !*/
 !*.html
 !*.css
+!script.js
 !.gitignore
 !photos-and-video/day-1/01-airport-plane.jpg
 !photos-and-video/day-1/02-airport-view.jpg
