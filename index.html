@@ -13,6 +13,13 @@
         <h1>
             Five Days on O'ahu
         </h1>
+        <nav>
+            <a href="#day-1">Day 1</a>
+            <a href="#day-2">Day 2</a>
+            <a href="#day-3">Day 3</a>
+            <a href="#day-4">Day 4</a>
+            <a href="#day-5">Day 5</a>
+        </nav>
     </header>
     <main>
         <section id="day-1">
@@ -166,13 +173,47 @@
                 moments to slow down by the water. The trip was full, fun, and genuinely refreshing. I keep thinking
                 about the fresh pineapple, the crispy tempura, the quiet beach, and that rainbow on our last day.
             </p>
+            <h3>
+                Little Moments I want to Remember
+            </h3>
+            <ul>
+                <li>Seeing Diamond Head from Waikiki Beach for the first time</li>
+                <li>Tasting fresh pineapple at Dole Plantation</li>
+                <li>Eating hot, crispy tempura after waiting in line for 30 minutes</li>
+                <li>Spotting a rainbow on our drive to the North Shore on the morning of our last day</li>
+            </ul>
             <p>
                 There is so much more of the island I want to see, so I’m already planning to come back this Christmas.
                 For now, I’m taking home the photos, the memories, and the feeling that five days was only the
-                beginning.
+                beginning. If you have been there, I would love a place or food recommendation for my next trip. If you
+                haven’t been, I would still love to hear what you thought of my travel diary!
             </p>
         </section>
-    </main>
-</body>
+        <form>
+            <fieldset>
+                <legend>Have you been to Hawai'i？</legend>
 
+                <input type="radio" id="visited-yes" name="visited" value="yes">
+                <label for="visited-yes">Yes</label>
+
+                <input type="radio" id="visited-no" name="visited" value="no">
+                <label for="visited-no">No</label>
+            </fieldset>
+
+            <label for="island">If yes, which island did you visit?</label>
+            <input type="text" id="island" name="island">
+
+            <label for="recommendation">If yes, what place or food would you recommend?</label>
+            <textarea id="recommendation" name="recommendation" rows="4"></textarea>
+
+            <label for="comment">If not, what did you think of my travel diary?</label>
+            <textarea id="comment" name="comment" rows="4"></textarea>
+            <button type="submit">Share your thoughts</button>
+        </form>
+    </main>
+    <footer>
+        <p>Thanks for reading my O'ahu travel diary. I hope a little rainbow luck follows you home!</p>
+        <a href="#day-1">Read from Day 1</a>
+    </footer>
+</body>
 </html>
