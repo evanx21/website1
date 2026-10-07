@@ -11,6 +11,7 @@ body {
     color: #2b3a3a;
     background-color: #f7f8f4;
     padding: 24px;
+    animation: background-change 12s ease-in-out infinite alternate;
 }
 
 h1 {
@@ -317,7 +318,7 @@ footer a{
 .scroll-cue svg{
     width:24px;
     height:24px;
-    animation: nudge-down 2.8s ease-in-out infinite;
+    animation: nudge-down 2.8s ease-in-out infinite alternate;
 }
 
 #map{
@@ -359,6 +360,15 @@ footer a{
     }
 
     80%{transform:translateY(5px);}
+}
+
+@keyframes background-change{
+    0%{
+        background-color: #f7f8f4;
+    }
+    100%{
+        background-color:#b8f0d2;
+    }
 }
 
 
