@@ -1,2 +1,6 @@
-.DS_Store
-*.swp
+# Keep only the HTML and CSS source files (plus this rule file) on GitHub.
+*
+!*/
+!*.html
+!*.css
+!.gitignore
